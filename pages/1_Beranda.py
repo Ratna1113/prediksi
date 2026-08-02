@@ -20,11 +20,11 @@ model = joblib.load("rf_model_hasil_panen_tuned_v3.pkl")
 # JUDUL
 # ==========================================
 
-st.title(" PREDIKSI HASIL PANEN PEPAYA BANGKOK")
+st.title("PREDIKSI HASIL PANEN PEPAYA BANGKOK")
 
 st.divider()
 
-st.subheader(" Input Data Pertanian")
+st.subheader("Input Data Pertanian")
 
 # ==========================================
 # SESSION STATE
@@ -90,7 +90,7 @@ st.markdown("")
 # ==========================================
 
 if st.button(
-    ":material/save: Simpan",
+    "🔍 Prediksi",
     use_container_width=True
 ):
 

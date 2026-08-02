@@ -6,7 +6,7 @@ with open("assets/style.css") as f:
     )
 from database import ambil_semua_prediksi, hapus_semua_prediksi
 
-st.title(" RIWAYAT PREDIKSI HASIL PANEN PEPAYA BANGKOK")
+st.title("RIWAYAT PREDIKSI HASIL PANEN PEPAYA BANGKOK")
 
 st.markdown("---")
 
